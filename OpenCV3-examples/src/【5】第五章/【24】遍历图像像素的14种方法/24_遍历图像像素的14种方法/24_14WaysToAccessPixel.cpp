@@ -275,8 +275,8 @@ void colorReduce7(Mat &image, int div=64) {
             //-------------开始处理每个像素-------------------
                  
             *data++= *data&mask + div/2;
-            *data++= *data&mask + div/2;
-            *data++= *data&mask + div/2;
+            //*data++= *data&mask + div/2;
+            //*data++= *data&mask + div/2;
  
             //-------------结束像素处理------------------------
  
